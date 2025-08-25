@@ -1,12 +1,36 @@
-# React + Vite
+# Elegance — Boutique UI (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projet frontend minimal pour une landing page e-commerce créée avec React, Vite et Framer Motion. Interface responsive composée de sections : navigation, hero, produits, about, contact et footer.
 
-Currently, two official plugins are available:
+## Démarrage rapide
+1. Installer les dépendances :
+   npm install
+2. Lancer en développement :
+   npm run dev
+3. Build de production :
+   npm run build
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Structure principale
+- Point d'entrée : [src/main.jsx](src/main.jsx)  
+- Composant racine : [`App`](src/App.jsx)
 
-## Expanding the ESLint configuration
+Sections (composants) :
+- Navigation — [`Navigation`](src/components/Navigation/Navigation.jsx)  
+- Hero — [`Hero`](src/components/Hero/Hero.jsx)  
+- Products — [`Products`](src/components/Products/Products.jsx) et [`ProductCard`](src/components/Products/ProductCard.jsx)  
+- About — [`About`](src/components/About/About.jsx)  
+- Contact — [`Contact`](src/components/Contact/Contact.jsx)  
+- Footer — [`Footer`](src/components/Footer/Footer.jsx)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Fichiers utiles :
+- Configuration Vite : [vite.config.js](vite.config.js)  
+- Dépendances / scripts : [package.json](package.json)  
+- Page HTML : [index.html](index.html)
+
+## Notes
+- Animations : Framer Motion (déjà importé dans les composants).  
+- Styles : CSS par composant (ex. [src/components/Hero/Hero.css](src/components/Hero/Hero.css)).  
+- Accessible : navigation par ancres et scroll smooth.
+
+Licence & contact : adapter selon vos besoins.
+  
