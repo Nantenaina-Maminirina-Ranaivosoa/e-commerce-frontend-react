@@ -2,6 +2,7 @@ import React from "react";
 import Navigation from "./components/Navigation/Navigation";
 import Hero from "./components/Hero/Hero";
 import "./App.css";
+import Products from "./components/Products/Products";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navigation />
       <main>
         <Hero />
+        <Products />
       </main>
     </div>
   );
