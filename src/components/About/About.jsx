@@ -1,6 +1,6 @@
-import * as React from 'react';
-import { motion } from 'framer-motion';
-import './About.css';
+import * as React from "react";
+import { motion } from "framer-motion";
+import "./About.css";
 
 function About() {
   return (
@@ -19,7 +19,7 @@ function About() {
               <div className="image-decoration decoration-2"></div>
             </div>
           </motion.div>
-          
+
           <motion.div
             className="about-content"
             initial={{ opacity: 0, x: 50 }}
@@ -28,31 +28,35 @@ function About() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h2 className="about-title">Our Story</h2>
-            <h3 className="about-subtitle">Crafting Excellence Since Day One</h3>
-            
+            <h3 className="about-subtitle">
+              Crafting Excellence Since Day One
+            </h3>
+
             <div className="about-text">
               <p>
-                At Elegance, we believe that true luxury lies in the perfect harmony of 
-                form and function. Founded with a vision to curate only the finest products, 
-                we've built our reputation on uncompromising quality and timeless design.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Quisquam maxime laborum commodi accusamus odio asperiores, error
+                adipisci laboriosam debitis est repellat natus perferendis
+                facere. Incidunt beatae ipsum ipsa saepe! Nulla!
               </p>
-              
+
               <p>
-                Every item in our collection is carefully selected for its exceptional 
-                craftsmanship, innovative features, and ability to enhance your lifestyle. 
-                We partner with renowned designers and artisans who share our commitment 
-                to excellence.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                cupiditate corporis provident fugiat dignissimos? Pariatur quae
+                in sed vel sunt ea illum eius. Nesciunt fugiat quisquam unde
+                quae aliquid ipsum!
               </p>
-              
+
               <p>
-                Our mission extends beyond retail – we're dedicated to creating experiences 
-                that inspire and delight, building lasting relationships with customers who 
-                appreciate the finer things in life.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                maxime quidem omnis voluptatibus saepe distinctio, aut error
+                earum atque odit, rem corrupti animi eaque incidunt quas dolores
+                quaerat ipsum explicabo.
               </p>
             </div>
-            
+
             <div className="about-stats">
-              <motion.div 
+              <motion.div
                 className="stat"
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 300 }}
@@ -60,8 +64,8 @@ function About() {
                 <h4>10K+</h4>
                 <p>Happy Customers</p>
               </motion.div>
-              
-              <motion.div 
+
+              <motion.div
                 className="stat"
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 300 }}
@@ -69,8 +73,8 @@ function About() {
                 <h4>500+</h4>
                 <p>Premium Products</p>
               </motion.div>
-              
-              <motion.div 
+
+              <motion.div
                 className="stat"
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 300 }}
