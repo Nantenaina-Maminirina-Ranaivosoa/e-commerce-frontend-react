@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { motion } from 'framer-motion';
-import './Navigation.css';
-
+import "./Navigation.css"
 function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
